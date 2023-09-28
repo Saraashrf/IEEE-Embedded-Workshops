@@ -60,7 +60,7 @@ int main(void)
 		   HAL_LED_On(GPIO_PORTA,GPIO_PIN2);
 		   HAL_LED_On(GPIO_PORTB,GPIO_PIN4);
 		
-	     MCAL_STK_SetDelay_ms(500);
+	     MCAL_STK_SetDelay_ms(5000);
 		}
 		
 		if(Car_Status == CAR_GREEN)
@@ -73,7 +73,7 @@ int main(void)
 	  	HAL_LED_On(GPIO_PORTA,GPIO_PIN3);
 		  HAL_LED_On(GPIO_PORTB,GPIO_PIN3);
 			
-		  MCAL_STK_SetDelay_ms(500);
+		  MCAL_STK_SetDelay_ms(5000);
 		}	
 		
 		if(Car_Status == CAR_RED)
@@ -86,7 +86,7 @@ int main(void)
 	  	HAL_LED_On(GPIO_PORTA,GPIO_PIN4);
       HAL_LED_On(GPIO_PORTB,GPIO_PIN2);
 			
-		  MCAL_STK_SetDelay_ms(500);
+		  MCAL_STK_SetDelay_ms(5000);
 	}
  }
 }
