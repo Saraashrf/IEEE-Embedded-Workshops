@@ -1,0 +1,89 @@
+Dependencies for Project 'Mini_Project', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::.\ARMCLANG
+F (.\AFIO_config.h)(0x6514999E)()
+F (.\AFIO_interface.h)(0x651499AA)()
+F (.\AFIO_private.h)(0x651499B4)()
+F (.\AFIO_program.c)(0x651499BC)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/afio_program.o -MD)
+I (STD_TYPES.h)(0x651391F8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63889D68)
+I (BIT_MATH.h)(0x65135F1B)
+I (AFIO_interface.h)(0x651499AA)
+I (AFIO_private.h)(0x651499B4)
+I (AFIO_config.h)(0x6514999E)
+F (.\BIT_MATH.h)(0x65135F1B)()
+F (.\EXTI_config.h)(0x6514B344)()
+F (.\EXTI_interface.h)(0x65149989)()
+F (.\EXTI_private.h)(0x65149986)()
+F (.\EXTI_program.c)(0x65149B77)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/exti_program.o -MD)
+I (STD_TYPES.h)(0x651391F8)
+I (BIT_MATH.h)(0x65135F1B)
+I (GPIO_interface.h)(0x64FA5233)
+I (AFIO_interface.h)(0x651499AA)
+I (EXTI_interface.h)(0x65149989)
+I (EXTI_private.h)(0x65149986)
+I (EXTI_config.h)(0x6514B344)
+F (.\GPIO_config.h)(0x64F8E477)()
+F (.\GPIO_interface.h)(0x64FA5233)()
+F (.\GPIO_private.h)(0x64FEF532)()
+F (.\LED.h)(0x65121AFB)()
+F (.\GPIO_program.c)(0x65135CEA)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/gpio_program.o -MD)
+I (STD_TYPES.h)(0x651391F8)
+I (BIT_MATH.h)(0x65135F1B)
+I (GPIO_interface.h)(0x64FA5233)
+I (GPIO_private.h)(0x64FEF532)
+I (GPIO_config.h)(0x64F8E477)
+F (.\LED.c)(0x6513222B)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/led.o -MD)
+I (STD_TYPES.h)(0x651391F8)
+I (BIT_MATH.h)(0x65135F1B)
+I (GPIO_interface.h)(0x64FA5233)
+I (STK_interface.h)(0x650A35FC)
+I (LED.h)(0x65121AFB)
+F (.\NVIC_config.h)(0x64FF9353)()
+F (.\NVIC_interface.h)(0x65072072)()
+F (.\NVIC_private.h)(0x65072AAF)()
+F (.\NVIC_program.c)(0x65072B91)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/nvic_program.o -MD)
+I (STD_TYPES.h)(0x651391F8)
+I (BIT_MATH.h)(0x65135F1B)
+I (NVIC_interface.h)(0x65072072)
+I (NVIC_private.h)(0x65072AAF)
+I (NVIC_config.h)(0x64FF9353)
+F (.\RCC_config.h)(0x65122074)()
+F (.\RCC_interface.h)(0x64FA3077)()
+F (.\RCC_private.h)(0x651220B1)()
+F (.\RCC_program.c)(0x64F509D1)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/rcc_program.o -MD)
+I (STD_TYPES.h)(0x651391F8)
+I (BIT_MATH.h)(0x65135F1B)
+I (RCC_interface.h)(0x64FA3077)
+I (RCC_private.h)(0x651220B1)
+I (RCC_config.h)(0x65122074)
+F (.\STD_TYPES.h)(0x651391F8)()
+F (.\STK_config.h)(0x650A328F)()
+F (.\STK_interface.h)(0x650A35FC)()
+F (.\STK_private.h)(0x651206BB)()
+F (.\STK_program.c)(0x6514C79E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/stk_program.o -MD)
+I (STD_TYPES.h)(0x651391F8)
+I (BIT_MATH.h)(0x65135F1B)
+I (STK_interface.h)(0x650A35FC)
+I (STK_private.h)(0x651206BB)
+I (STK_config.h)(0x650A328F)
+F (.\main.c)(0x6515D7BA)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
+I (BIT_MATH.h)(0x65135F1B)
+I (STD_TYPES.h)(0x651391F8)
+I (RCC_interface.h)(0x64FA3077)
+I (GPIO_interface.h)(0x64FA5233)
+I (NVIC_interface.h)(0x65072072)
+I (AFIO_interface.h)(0x651499AA)
+I (EXTI_interface.h)(0x65149989)
+I (STK_interface.h)(0x650A35FC)
+I (LED.h)(0x65121AFB)
+F (RTE/Device/STM32F103C8/RTE_Device.h)(0x5FC0A44A)()
+F (RTE/Device/STM32F103C8/startup_stm32f10x_md.s)(0x61ADCDBE)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE/Device/STM32F103C8/system_stm32f10x.c)(0x61ADCDBE)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MD)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61ADCDBE)
+I (RTE\_Target_1\RTE_Components.h)(0x651498E1)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61ADCDBE)
